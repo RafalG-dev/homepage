@@ -1,8 +1,20 @@
-.headingHeader{
+.body__size{
+    max-width: 800px;
+    background-color: gray;
+    margin: 15px auto;
+}
+
+.heading__header{
     color: red;
     background: darkgrey;
 }
 
-.resultBox{
+.result__box{
     background-color: darkolivegreen;
+}
+
+.section__heading{
+    background: yellow;
+    max-width: 230px;
+    margin: auto;
 }
