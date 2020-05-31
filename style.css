@@ -22,6 +22,7 @@ html {
     max-width: 800px;
     background-image: url(15409.png);
     margin: 15px auto;
+    position: relative;
 }
 
 .hamburger {
