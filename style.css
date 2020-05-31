@@ -33,7 +33,7 @@ html {
 .header {
     min-height: 60px;
     background: #fff;
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
 }
@@ -67,6 +67,10 @@ html {
 .navigation__link {
     display: block;
     color: red;
+}
+
+.photo--blue {
+    max-width: 100%;
 }
 
 .sectionResult__box {
