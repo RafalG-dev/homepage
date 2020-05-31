@@ -1,20 +1,89 @@
-.body__size{
+/*--------------------restart styli polecany przez Maćka-----------------------*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/*--------------------poniżej moje style do projektu---------------------------*/
+
+.button {
+    background: blue;
+    margin: auto;
+}
+
+.body__size {
     max-width: 800px;
-    background-color: gray;
+    background-image: url(15409.png);
     margin: 15px auto;
 }
 
-.heading__header{
+.hamburger {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+}
+
+.header {
+    min-height: 60px;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.heading__header {
     color: red;
     background: darkgrey;
+    margin-top: 64px;
 }
 
-.result__box{
+.main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.navigation {
+    display: none;
+    justify-content: center;
+    align-content: center;
+}
+
+.navigation--open--js {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.navigation__link {
+    display: block;
+    color: red;
+}
+
+.sectionResult__box {
     background-color: darkolivegreen;
+    border: 1px dotted white;
 }
 
-.section__heading{
+.section__heading {
     background: yellow;
     max-width: 230px;
     margin: auto;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.zmiana--js {
+    background: blue;
 }
